@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display";
+  background: linear-gradient(135deg, #e8ebf0, #f9fafc);
+}
+
+.ios-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.ios-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.ios-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(18px);
+  border-radius: 20px;
+  padding: 25px;
+  width: 420px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.ios-input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 14px;
+  border: none;
+  background: #f1f3f6;
+  font-size: 16px;
+  outline: none;
+}
+
+.ios-btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.ios-btn {
+  border: none;
+  padding: 12px 18px;
+  border-radius: 14px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.ios-btn.primary {
+  background: #007aff;
+  color: white;
+}
+
+.ios-btn.secondary {
+  background: #e5e5ea;
+}
+
+.ios-btn.danger {
+  background: #ff3b30;
+  color: white;
+}
+
+.ios-btn.full {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.ios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+.ios-table th,
+.ios-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
